@@ -1,5 +1,5 @@
 /*
- * CodeForces - Stones On The Table
+ * CodeForces - Stones On The Table - 266A
  * Link do Desafio: https://codeforces.com/problemset/problem/266/A
  * * Autor: Leonardo Meneses
  */

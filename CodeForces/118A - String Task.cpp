@@ -1,5 +1,5 @@
 /*
- * CodeForces - String Test
+ * CodeForces - String Task - 118A
  * Link do Desafio: https://codeforces.com/problemset/problem/118/A
  * * Autor: Leonardo Meneses
  */

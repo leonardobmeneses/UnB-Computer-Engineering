@@ -1,5 +1,5 @@
 /*
- * CodeForces - Way Too Long Words
+ * CodeForces - Way Too Long Words - 71A
  * Link do Desafio: https://codeforces.com/problemset/problem/71/A
  * * Autor: Leonardo Meneses
  */

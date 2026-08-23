@@ -1,5 +1,5 @@
 /*
- * CodeForces - Registration system
+ * CodeForces - Registration system - 4C
  * Link do Desafio: https://codeforces.com/problemset/problem/4/C
  * * Autor: Leonardo Meneses
  */

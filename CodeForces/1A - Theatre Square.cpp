@@ -1,5 +1,5 @@
 /*
- * CodeForces - Theatre Square
+ * CodeForces - Theatre Square - 1A
  * Link do Desafio: https://codeforces.com/problemset/problem/1/A
  * * Autor: Leonardo Meneses
  */
@@ -14,5 +14,11 @@ int main(){
 
    long long int n,m,a;
    cin >> n >> m >> a;
+
+   long long comprimento = (n + a - 1) / a;
+   long long largura = (m + a - 1) / a;
+
+   long long resultado = comprimento * largura;
+   cout << resultado << "\n";
    return 0;
 }
