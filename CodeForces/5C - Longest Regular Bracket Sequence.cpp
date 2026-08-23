@@ -12,33 +12,29 @@ int main(){
     string input;
     cin >> input;
 
-    vector<char> character;
+    vector<int> stack;
     int longest = 0;
-    int sequences = 0;
-    int count = 0;
-    for(char c : input){
-        while(!character.empty()){
-            if(c == '('){
-                character.push_back(c);
-            }else if(character.back() == '('){
-                character.pop_back();
-                count++;
+    int count = 1;
+
+    stack.push_back(-1);                //Aqui vamos deixar o topo da stack com -1 para cobrirmos o caso de ()
+    for(int i=0; i<(int)input.length(); i++){
+        if(input[i] == '('){            
+            stack.push_back(i);         //vamos colocar o indice de ( no final da stack
+        }else{
+            stack.pop_back();           //se for ) a gente de qualquer maneira tira o indice que está no topo da stack
+            if(stack.empty()){
+                stack.push_back(i);     //se a stack estiver vazia quer dizer que perdemos o -1 e precisamos de uma nova base
             }else{
-                character.pop_back();
-                break;
+                int currentSize = i - stack.back();     //vai ser o indice atual - o topo da stack
+                if(currentSize > longest){
+                    longest = currentSize;
+                    count = 1;
+                }else if(currentSize == longest){
+                    count++;
+                }
             }
         }
-        if(character.empty()){
-            character.push_back(c);
-            sequences++;
-        }
-        if(count > longest) longest = count;
-        count = 0;
     }
-    if(longest == 0){
-        cout << "0 1" << "\n";
-    }else{
-        cout << longest << " " << sequences << "\n";
-    }
+    cout << longest << " " << count << "\n";
     return 0;
 }
