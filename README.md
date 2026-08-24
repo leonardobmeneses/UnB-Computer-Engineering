@@ -1,7 +1,15 @@
-# UnB Computer Engineering
+# UnB Computer Engineering 💻🏛️
 
-Repository containing codes and algorithms developed during my freshman year at University of Brasília (UnB).
+Welcome to my Computer Engineering repository! This space contains a collection of data structure implementations and competitive programming solutions developed during my studies at the University of Brasília (UnB). 
 
-## Contents
-- **Beecrowd:** Solutions for competitive programming challenges. Topics covered include Data Structures (STL, lists, vectors), Ad-Hoc, Mathematics, Strings, and general logic. [View my Profile](https://judge.beecrowd.com/pt/profile/1120224)
-- **Data Structures:** Implementations of lists and trees in C.
+## 🗂️ Repository Structure
+
+The repository is organized by platforms and specific computer science topics:
+
+*   **Beecrowd:** Solutions for competitive programming challenges covering Ad-Hoc logic, Mathematics, Strings, and general STL usage.
+*   **CodeForces:** Highly optimized C++ solutions for CodeForces problems. Focuses on advanced problem-solving techniques, time complexity optimization ($O(N)$, $O(N \log N)$), and structural patterns.
+*   **CSES:** Solutions for the classic CSES Problem Set. Focuses on foundational algorithm techniques such as Array Manipulation, Sorting, Searching, and advanced data structures.
+*   **Data Structures:** Fundamental data structure implementations built from scratch in C, including Linked Lists, Trees, and memory management algorithms.
+
+---
+*Continuously learning and coding.*
