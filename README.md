@@ -7,7 +7,7 @@ Welcome to my Computer Engineering repository! This space contains a collection 
 The repository is organized by platforms and specific computer science topics:
 
 *   **Beecrowd:** Solutions for competitive programming challenges covering Ad-Hoc logic, Mathematics, Strings, and general STL usage.
-*   **CodeForces:** Highly optimized C++ solutions for CodeForces problems. Focuses on advanced problem-solving techniques, time complexity optimization (O(N) and O(N log N)), and structural patterns.
+*   **CodeForces:** Optimized C++ solutions for CodeForces problems. Focuses on advanced problem-solving techniques, time complexity optimization (O(N) and O(N log N)), and structural patterns.
 *   **CSES:** Solutions for the classic CSES Problem Set. Focuses on foundational algorithm techniques such as Array Manipulation, Sorting, Searching, and advanced data structures.
 *   **Data Structures:** Fundamental data structure implementations built from scratch in C, including Linked Lists, Trees, and memory management algorithms.
 
