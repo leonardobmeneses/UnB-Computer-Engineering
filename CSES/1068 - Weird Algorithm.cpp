@@ -4,28 +4,29 @@
  * * Autor: Leonardo Meneses
  */
 
-#include <iostream>
- 
+#include <bits/stdc++.h>
+
 using namespace std;
- 
-long long conta(long long n){
-  if(n==1){
-    return 0;
-  }
-  
-  if(n%2==0){
-    n = n/2;
-  }else{
-    n = n*3+1;
-  }
-  cout << n << " ";
-  return conta(n);
+
+void solve(long long int n){
+    cout << n << " ";
+    if(n==1){
+        return;
+    }else{
+        if(n%2==0){
+            n = n/2;
+        }else{
+            n = n*3+1;
+        }
+        return solve(n);
+    }
 }
- 
+
 int main(){
-  long long n;
-  cin >> n;
-  cout << n << " ";
-  conta(n);
-  return 0;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    long long int n;
+    cin >> n;
+    solve(n);
 }
