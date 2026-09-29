@@ -3,3 +3,4 @@ template.cpp
 *.out
 *.exe
 *.o
+*.txt
