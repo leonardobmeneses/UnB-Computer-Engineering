@@ -4,3 +4,4 @@ template.cpp
 *.exe
 *.o
 *.txt
+*.py

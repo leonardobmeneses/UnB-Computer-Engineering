@@ -23,7 +23,7 @@ int main(){
 				current2 += apples[i];
 			}
 		}
-		smaller = min(smaller, abs(atual1 - atual2));
+		smaller = min(smaller, abs(current1 - current2));
 		current1 = 0;
 		current2 = 0;
 	} 
